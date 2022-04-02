@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Secreto</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <section class="contenedor titulo">
+      <h1 class="titulo">Código Secreto</h1>
+    </section>   
+  </header>  
+    
+  <section>
+       <div class="contenedor principal">
+          <div class="caja-formulario">
+            <h2>Ingrese su mensaje</h2>
+            <form>
+              <p>Ingresar mensaje en minúsculas. No se pueden ingresar números
+                ni caracteres especiales</p>
+              <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí">
+              <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+              <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+            </form>
+          </div>
+
+          <div class="caja-mensaje">
+            <h2>Mensaje Encriptado</h2>
+            <p>Copiar el texto y pegar arriba para desencriptar</p>
+            <input class="text-input" type="text" id="resultado">
+            <input class="btn" type="submit" value="Copiar" id="btn-copy">
+          </div>
+       </div>  
+  </section>
+
+  <footer class="contenedor footer">
+    <p>Elaborado por: Jesualdo Gutiérrez</p>
+    <a href="" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="http://" target="_blank">
+      <i class="fa-brands fa-github-square"></i>
+    </a>
+  </footer> 
+    <script src="js/principal.jS"></script>
+    <script src="https://kit.fontawesome.com/5a551c5102.js" crossorigin="anonymous"></script>   
+</body>
+
+</html>
